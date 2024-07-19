@@ -1,0 +1,162 @@
+[
+  {
+    "javaClassName": "TikTokChestEvent",
+    "name": "on tiktok chest",
+    "fields": {
+      "event.chest.totalDiamonds": "Int",
+      "event.chest.totalUsers": "Int",
+      "event.messageId": "Long",
+      "event.openedAt.fastTime": "Long",
+      "event.roomId": "Long",
+      "event.timeStamp": "Long",
+      "event.user.followers": "Long",
+      "event.user.following": "Long",
+      "event.user.id": "Long",
+      "event.user.name": "String",
+      "event.user.picture.link": "String",
+      "event.user.profileName": "String"
+    }
+  },
+  {
+    "javaClassName": "TikTokCommentEvent",
+    "name": "on tiktok comment",
+    "fields": {
+      "event.mentionedUser.followers": "Long",
+      "event.mentionedUser.following": "Long",
+      "event.mentionedUser.id": "Long",
+      "event.mentionedUser.name": "String",
+      "event.mentionedUser.picture.link": "String",
+      "event.mentionedUser.profileName": "String",
+      "event.messageId": "Long",
+      "event.roomId": "Long",
+      "event.text": "String",
+      "event.timeStamp": "Long",
+      "event.user.followers": "Long",
+      "event.user.following": "Long",
+      "event.user.id": "Long",
+      "event.user.name": "String",
+      "event.user.picture.link": "String",
+      "event.user.profileName": "String",
+      "event.userLanguage": "String",
+      "event.visibleToSender": "Boolean"
+    }
+  },
+  {
+    "javaClassName": "TikTokConnectedEvent",
+    "name": "on tiktok connected",
+    "fields": {}
+  },
+  {
+    "javaClassName": "TikTokDisconnectedEvent",
+    "name": "on tiktok disconnected",
+    "fields": {
+      "event.reason": "String"
+    }
+  },
+  {
+    "javaClassName": "TikTokErrorEvent",
+    "name": "on tiktok error",
+    "fields": {
+      "event.exception.cause": "Throwable",
+      "event.exception.depth": "Int",
+      "event.exception.detailMessage": "String"
+    }
+  },
+  {
+    "javaClassName": "TikTokFollowEvent",
+    "name": "on tiktok follow",
+    "fields": {
+      "event.messageId": "Long",
+      "event.roomId": "Long",
+      "event.timeStamp": "Long",
+      "event.totalFollowers": "Int",
+      "event.user.followers": "Long",
+      "event.user.following": "Long",
+      "event.user.id": "Long",
+      "event.user.name": "String",
+      "event.user.picture.link": "String",
+      "event.user.profileName": "String"
+    }
+  },
+  {
+    "javaClassName": "TikTokGiftEvent",
+    "name": "on tiktok gift",
+    "fields": {
+      "event.combo": "Int",
+      "event.gift.diamondCost": "Int",
+      "event.gift.id": "Int",
+      "event.gift.name": "String",
+      "event.gift.picture.link": "String",
+      "event.messageId": "Long",
+      "event.roomId": "Long",
+      "event.timeStamp": "Long",
+      "event.toUser.followers": "Long",
+      "event.toUser.following": "Long",
+      "event.toUser.id": "Long",
+      "event.toUser.name": "String",
+      "event.toUser.picture.link": "String",
+      "event.toUser.profileName": "String",
+      "event.user.followers": "Long",
+      "event.user.following": "Long",
+      "event.user.id": "Long",
+      "event.user.name": "String",
+      "event.user.picture.link": "String",
+      "event.user.profileName": "String"
+    }
+  },
+  {
+    "javaClassName": "TikTokJoinEvent",
+    "name": "on tiktok join",
+    "fields": {
+      "event.messageId": "Long",
+      "event.roomId": "Long",
+      "event.timeStamp": "Long",
+      "event.totalUsers": "Int",
+      "event.user.followers": "Long",
+      "event.user.following": "Long",
+      "event.user.id": "Long",
+      "event.user.name": "String",
+      "event.user.picture.link": "String",
+      "event.user.profileName": "String"
+    }
+  },
+  {
+    "javaClassName": "TikTokLikeEvent",
+    "name": "on tiktok like",
+    "fields": {
+      "event.likes": "Int",
+      "event.messageId": "Long",
+      "event.roomId": "Long",
+      "event.timeStamp": "Long",
+      "event.totalLikes": "Int",
+      "event.user.followers": "Long",
+      "event.user.following": "Long",
+      "event.user.id": "Long",
+      "event.user.name": "String",
+      "event.user.picture.link": "String",
+      "event.user.profileName": "String"
+    }
+  },
+  {
+    "javaClassName": "TikTokReconnectingEvent",
+    "name": "on tiktok reconnecting",
+    "fields": {}
+  },
+  {
+    "javaClassName": "TikTokSubscribeEvent",
+    "name": "on tiktok subscribe",
+    "fields": {
+      "event.messageId": "Long",
+      "event.roomId": "Long",
+      "event.timeStamp": "Long",
+      "event.user.followers": "Long",
+      "event.user.following": "Long",
+      "event.user.id": "Long",
+      "event.user.name": "String",
+      "event.user.picture.link": "String",
+      "event.user.profileName": "String"
+    }
+  }
+]
+
+
