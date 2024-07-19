@@ -16,6 +16,25 @@ there are a few possible way of connecting
 - `It is not possible connecting if your server has China/Russian/Ukrainian IP`
 - `It is not possible connecting if you are under connection limit`
 
+
+
+## Skript
+
+Ok now you are connected but how to adjust this plugin?
+First of all you need to learn a bit `Skript`. It is a 
+plugin that allows you to create scripts for spigot.
+
+You can find all the TikTok related scripts at the path
+
+`.../plugins/Skript/scripts/tiktok`
+
+Just modify or edit them as you want. Where you are done
+reload the script you were working on with the command 
+
+`/skript reload (skript name)`
+
+Now I will tell you more about scripting 
+
 ## Gifts
 
 Gift event pattern: `on [%number_of_gifts%] gift[s] [%gift-name%]`
