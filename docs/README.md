@@ -104,28 +104,6 @@ Event pattern: `on tiktok %event-name%`
 There more events than just gifts. You might
 use them to control your mini-game or make it more fun!
 
-### on tiktok chest
-
-
-```
-on tiktok chest:
- #possible properties
- 
-  set {totalDiamonds} to {event.chest.totalDiamonds} #number
-  set {totalUsers} to {event.chest.totalUsers} #number
-  set {messageId} to {event.messageId} #number
-  set {fastTime} to {event.openedAt.fastTime} #number
-  set {roomId} to {event.roomId} #number
-  set {timeStamp} to {event.timeStamp} #number
-  set {followers} to {event.user.followers} #number
-  set {following} to {event.user.following} #number
-  set {id} to {event.user.id} #number
-  set {name} to {event.user.name} #text
-  set {link} to {event.user.picture.link} #text
-  set {profileName} to {event.user.profileName} #text
-
-  send  "on tiktok chest event has been invoked!" to the player
-```
 ### on tiktok comment
 
 
