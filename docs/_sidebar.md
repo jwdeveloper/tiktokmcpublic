@@ -3,4 +3,4 @@
  # TikTokMC
 
 * [Tutorial](/)
-* [FAQ](faq.md)
+* [FAQ](instruction.md)
