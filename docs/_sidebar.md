@@ -2,5 +2,6 @@
 
  # TikTokMC
 
+* [Installation](instruction.md)
 * [Tutorial](/)
-* [FAQ](instruction.md)
+* [Testing](testing.md)
